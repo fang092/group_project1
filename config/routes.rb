@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root 'static_pages#home', as: 'home'
-  get 'static_pages/spaghettistack', as: 'spaghettiStack'
-  get 'static_pages/binarytree', as: 'binaryTree'
+  get 'static_pages/spaghettistack', as: 'spaghettistack'
+  get 'static_pages/binarytree', as: 'binarytree'
   get 'static_pages/graph', as: 'graph'
 
   # The priority is based upon order of creation: first created -> highest priority.
