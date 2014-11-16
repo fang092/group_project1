@@ -8,6 +8,23 @@
     <%= csrf_meta_tags %>
   </head>
   <body>
+    <!-- Static navbar -->
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+
+            <%= link_to "Home",home_path(), class:"navbar-brand" %>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><%= link_to "Graph", graph_path() %></li>
+              <li><%= link_to "Spaghetti Stack", spaghettistack_path() %></li>
+              <li><%= link_to "Tree", binarytree_path() %></li>
+             
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
     <%= yield %>
   </body>
 </html>
