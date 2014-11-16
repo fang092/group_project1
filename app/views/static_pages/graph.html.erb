@@ -1,2 +1,12 @@
-<h1>StaticPages#graph</h1>
-<p>Find me in app/views/static_pages/graph.html.erb</p>
+<% provide(:title, "Graph") %>
+<h1>Graph</h1>
+<div class = "textbox">
+	<p>
+	  A graph is a abstract data type that is meant to implement at the graph and directed graph concepts from mathematics.
+
+	  A graph data structure is made of a finite set of nodes or vertices , together with a set of orderd pairs of these nodes. These pairings are called edges or arcs. In math, a edge (x,y) is said to point or go from x to y. These nodes may be a part of the graph structure. Use sass!
+	</p>
+</div>
+<div class = "picture">
+	<%= image_tag("graph.svg.png", :alt => "Yay Graph!") %>
+</div>
