@@ -1,6 +1,7 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
 .textbox
 {
 	float:left;
@@ -9,6 +10,8 @@
 	
 	margin-left: 50px;
 	margin-right:200px;
+
+	font: 20px/26px serif;
 }
 .picture img 
 {
@@ -17,7 +20,43 @@
 	height: 17%;
 	
 }
+.spaghetti img
+{
+	float:left;
+	margin-left:10px;
+	width:5%;
+	height:5%;
+}
+.graph img
+{
+	float:left;
+	margin-left:10px;
+	width:4%;
+	height:4%;
+}
+.tree img
+{
+	float:left;
+	margin-left:10px;
+	width:5%;
+	height:5%;
+
+}
+.indent
+{
+	margin-left:60px;
+	margin-top:10px;
+	float:left;
+	font: 20px serif;
+}
+.clear
+{
+	clear:both;
+}
 body h1
 {
 	margin-left:50px;
 }
+
+ 
+

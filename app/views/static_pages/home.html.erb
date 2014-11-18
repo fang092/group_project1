@@ -1,4 +1,18 @@
-<h1>Home</h1>
-<p><%= link_to "Graph", graph_path() %></p>
-<p><%= link_to "Spaghetti Stack", spaghettistack_path() %></p>
-<p><%= link_to "Tree", binarytree_path() %></p>
+<div class = "box">
+	<h1><b>Home</b></h1>
+
+	<p class = "indent"><%= link_to "Graph", graph_path() %></p>
+	<p class ="graph">
+		<%= image_tag("graph_cartoon.gif", :alt => "Graph me a river.") %>
+	</p>
+	<p class = "clear"></p>
+	<p class = "indent"><%= link_to "Spaghetti Stack", spaghettistack_path() %></p>
+	<p class ="spaghetti">
+		<%= image_tag("spaghetti.jpg", :alt => "What a impasta...") %>
+	</p>
+	<p class = "clear"></p>
+	<p class = "indent"><%= link_to "Tree", binarytree_path() %></p>
+	<p class ="tree">
+		<%= image_tag("tree.png", :alt => "Why dont you leaf?") %>
+	</p>
+</div>
