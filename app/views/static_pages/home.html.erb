@@ -2,18 +2,68 @@
 
 	<h1><b>Home</b></h1>
 
-	<p class = "indent"><%= link_to "Graph", graph_path() %></p>
-	<p class ="graph">
-		<%= image_tag("graph_cartoon.gif", :alt => "Graph me a river.") %>
-	</p>
-	<p class = "clear"></p>
-	<p class = "indent"><%= link_to "Spaghetti Stack", spaghettistack_path() %></p>
-	<p class ="spaghetti">
-		<%= image_tag("spaghetti.jpg", :alt => "What a impasta...") %>
-	</p>
-	<p class = "clear"></p>
-	<p class = "indent"><%= link_to "Tree", binarytree_path() %></p>
-	<p class ="tree">
-		<%= image_tag("tree.png", :alt => "Why dont you leaf?") %>
-	</p>
+	<div id = "GraphPanel">
 
+		<p class ="graphpicture">
+
+			<%= image_tag("graph_cartoon.gif", :alt => "Graph me a river.") %>
+		</p>
+
+		<p class = "subheader"> 
+
+			<h3> Graph </h3>
+		</p>
+
+		<p class = "clear"></p>
+
+		<p class = "info">
+			A <%= link_to "Graph", graph_path() %> is not  a normal graph that you would make in Microsoft, it is a series of vertices meant to illustrate a type of relationship. These concepts a taken from mathematics and are seen as well in computer science.
+		</p>
+
+	</div>
+
+	<div id = "SpaghettiPanel">
+
+		<p class ="spaghettipicture">
+
+			<%= image_tag("spaghetti.jpg", :alt => "What a impasta...") %>
+		</p>
+
+		<p class = "subheader">
+
+			<h3> Spaghetti Stack </h3>
+		</p>
+
+		<p class = "clear"></p>
+
+		<p class = "info">
+			This  data structure is not good tasting -- named after spaghetti , a <%= link_to "Spaghetti Stack", spaghettistack_path() %> resembles a spaghetti noddle in that it's data structure has one and only one parent pointer.
+
+		</p>
+
+	</div>
+
+	<p class = "clear"></p>
+
+
+	<div id = "TreePanel">
+
+		<p class ="treepicture">
+			<%= image_tag("tree.png", :alt => "Why dont you leaf?") %>
+		</p>
+
+		<p class = "subheader">
+
+			<h3> Tree </h3>
+
+		</p>
+
+		<p class = "clear"></p>
+
+		<p class = "info">
+			
+			"Stay off that Tree Jimmy!"A <%= link_to "Binary Tree", binarytree_path() %> is another data structure. Unlike real trees, these are less dangerous to climb. Their name comes from their tree like structure and that their base nodes are often called leafs.
+			
+		</p>
+	</div>
+	<p class = "clear"></p>
