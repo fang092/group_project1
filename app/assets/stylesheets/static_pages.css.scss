@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
+@import 'sticky-footer-navbar.css';
 .textbox
 {
 	float:left;
@@ -17,8 +17,8 @@
 .picture img 
 {
 	float:left;
-	width: 17%;
-	height: 17%;
+	width: 15%;
+	height: 15%;
 	
 }
 .spaghettipicture img
@@ -26,8 +26,8 @@
 	float:left;
 	margin-left:60px;
 	margin-top:10px;
-	width:10%;
-	height:10%;
+	width:12%;
+	height:12%;
 }
 .graphpicture img
 {
@@ -42,8 +42,8 @@
 	float:left;
 	margin-left:60px;
 	margin-top:10px;
-	width:10%;
-	height:10%;
+	width:12%;
+	height:12%;
 	background-color:white;
 
 }
@@ -88,15 +88,17 @@ a:link
     color:#00FA9A;
 }
 
+
 #SpaghettiPanel 
 {
 	float:left;
 	margin-top:20px;
 	margin-right:20px;
-	margin-left:50px;
+	margin-left:20px;
 	width: 500px;
-	height:175px;
-	border: 1px black solid;
+	height:200px;
+	background-color: #F4F4F4;
+	border: 5px #CDC9C9 ridge;
 
 }
  #GraphPanel 
@@ -106,8 +108,9 @@ a:link
 	margin-right:20px;
 	margin-left:50px;
 	width: 500px;
-	height:175px;
-	border: 1px black solid;
+	height:200px;
+	background-color: #F4F4F4;
+	border: 5px #CDC9C9 ridge;
 }
 #TreePanel
 {
@@ -116,9 +119,15 @@ a:link
 	margin-right:20px;
 	margin-left:50px;
 	width: 500px;
-	height:175px;
-	border: 1px black solid;
+	height:200px;
+	background-color: #F4F4F4;
+	border: 5px #CDC9C9 ridge;
 }
 
  
+
+footer p, .italic {
+	font-style:italic;
+}
+
 
